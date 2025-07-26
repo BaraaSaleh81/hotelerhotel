@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --gold_color:#AE7D54;
+    --blak_color:#121212;
+    --white_color:#ffffff;
+    --gray_color:#666666;
+    --font_family_main:"Playfair Display", serif ;
+    --font_family_sub:"Open Sans", sans-serif;
+    --font-Barlow:"Barlow Condensed", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    
+}
+.contact-title span{
+    font-family: var(--font-Barlow);
+    color: var(--gold_color);
+    letter-spacing: 7px;
+    font-size: 16px;
+}
+.contact-title h2{
+    font-family: var(--font_family_main);
+    color: var(--blak_color);
+    font-weight: 400;
+    font-size: 50px;
+}
+.contact-title input{
+border: none;
+background-color: #ebe5e5;
+}
+.contact-title textarea{
+    border: none;
+    background-color:#ebe5e5;
+
+}
+.contact-title button{
+    border-color: var(--gold_color);
+    background-color: rgb(242, 240, 237);
+}
+.contact-title ul li{
+    position: relative;
+    
+}
+
+.fa-phone-flip {
+    background-color: antiquewhite;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:7px ;
+    left: -25px;
+}
