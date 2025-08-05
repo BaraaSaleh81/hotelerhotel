@@ -18,6 +18,7 @@ ul li{
 }
 a{
     text-decoration: none;
+    color:#121212 ;
 }
 .login{
     position: relative;
@@ -31,7 +32,7 @@ h2{
     font-family: var(--font_family_main);
 }
 .input-box{
-    position: relative;
+position: relative;
 width: 310px;
 margin: 30px 0;
 border-bottom: 2px solid var(--gold_color);
@@ -42,9 +43,9 @@ border-bottom: 2px solid var(--gold_color);
     left: 5px;
     transform: translateY(-50%);
     font-size: 20px;
-color: var(--gold_color);
-pointer-events: none;
-transition: .5s;
+    color: var(--gold_color);
+    pointer-events: none;
+    transition: .5s;
 }
 .input-box input:focus+label,
 .input-box input:valid+label{

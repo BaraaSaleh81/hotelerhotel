@@ -11,9 +11,12 @@
     --font_family_sub:"Open Sans", sans-serif;
     --font-Barlow:"Barlow Condensed", sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 h2{
     color: var(--gold_color);
-
 }
 .sign {
     min-height: 50vh;
@@ -21,7 +24,7 @@ h2{
 }
 .sign-up{
     position: relative;
-    width: 320px;
+    width: 310px;
     margin: 30px 0;
     border-bottom: 2px solid var(--gold_color);
 }
@@ -32,7 +35,7 @@ h2{
    transform: translateY(-50%);
    color: var(--gold_color);
    pointer-events: none;
-   transition: 0.5s;
+   transition:.5s;
 }
 .sign-up input:focus~label,
 .sign-up input:valid~label{
